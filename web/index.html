@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="js/sockjs-0.2.1.min.js"></script>
+        <script src="js/vertxbus.js"></script>
+        <script src="js/client.js"></script>
+    </head>
+    <body>
+        <h1>Statistics</h1>
+        <div class="stats">
+            <span>Tasks: </span><span class="tasks"></span><br/>
+            <span>CPU: </span><span class="cpu"></span><br/>
+            <span>Mem used: </span><span class="memUsed"></span><br/>
+            <span>Mem free: </span><span class="memFree"></span><br/>
+            <span>Swap used: </span><span class="swapUsed"></span><br/>
+            <span>Swap free: </span><span class="swapFree"></span><br/>
+        </div>
+        <table>
+            <thead>
+                <th>PID</th>
+                <th>User</th>
+                <th>CPU</th>
+                <th>Mem</th>
+                <th>Command</th>
+            </thead>
+            <tbody class="processes">
+            </tbody>
+        </table>
+    </body>
+</html>
