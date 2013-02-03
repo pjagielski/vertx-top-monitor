@@ -5,7 +5,6 @@ def webServerConf = [
 
   // Normal web server stuff
   port: 8080,
-  host: 'localhost',
   ssl: false,
 
   // Configuration for the event bus client side bridge
@@ -31,6 +30,7 @@ container.with {
   // Start the web server, with the config we defined above
   deployModule('vertx.web-server-v1.0', webServerConf)
 
-  deployVerticle('Sender.groovy')
+  deployVerticle('StatsSender.groovy')
 
+  println('Started')
 }

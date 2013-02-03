@@ -1,0 +1,62 @@
+top - 21:19:31 up  3:24,  1 user,  load average: 0,19, 0,10, 0,07
+Tasks:  55 total,   1 running,  54 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2,8 us,  2,9 sy,  0,0 ni, 92,8 id,  1,6 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem:    448996 total,   100820 used,   348176 free,    13328 buffers
+KiB Swap:   102396 total,        0 used,   102396 free,    64472 cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S  %CPU %MEM    TIME+  COMMAND
+ 2407 pi        20   0  6220 1204  944 R  11,5  0,3   0:00.05 top
+    1 root      20   0  2144  724  616 S   0,0  0,2   0:02.18 init
+    2 root      20   0     0    0    0 S   0,0  0,0   0:00.00 kthreadd
+    3 root      20   0     0    0    0 S   0,0  0,0   0:00.10 ksoftirqd/0
+    5 root      20   0     0    0    0 S   0,0  0,0   0:01.46 kworker/u:0
+    6 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 khelper
+    7 root      20   0     0    0    0 S   0,0  0,0   0:00.01 kdevtmpfs
+    8 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 netns
+    9 root      20   0     0    0    0 S   0,0  0,0   0:00.07 sync_supers
+   10 root      20   0     0    0    0 S   0,0  0,0   0:00.00 bdi-default
+   11 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 kblockd
+   12 root      20   0     0    0    0 S   0,0  0,0   0:00.23 khubd
+   13 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 rpciod
+   15 root      20   0     0    0    0 S   0,0  0,0   0:00.00 khungtaskd
+   16 root      20   0     0    0    0 S   0,0  0,0   0:00.00 kswapd0
+   17 root      20   0     0    0    0 S   0,0  0,0   0:00.00 fsnotify_mark
+   18 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 nfsiod
+   19 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 crypto
+   26 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 kthrotld
+   27 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 VCHIQ-0
+   28 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 VCHIQr-0
+   29 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 dwc_otg
+   30 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 DWC Notificatio
+   32 root      20   0     0    0    0 S   0,0  0,0   0:08.58 mmcqd/0
+   34 root      20   0     0    0    0 S   0,0  0,0   0:00.15 jbd2/mmcblk0p2-
+   35 root       0 -20     0    0    0 S   0,0  0,0   0:00.00 ext4-dio-unwrit
+  138 root      20   0  2880 1268  736 S   0,0  0,3   0:00.43 udevd
+  270 root      20   0  2876 1020  472 S   0,0  0,2   0:00.03 udevd
+  276 root      20   0  2876 1008  468 S   0,0  0,2   0:00.01 udevd
+ 1453 root      20   0  1744  508  416 S   0,0  0,1   0:06.61 ifplugd
+ 1490 root      20   0  1744  500  416 S   0,0  0,1   0:01.35 ifplugd
+ 1733 root      20   0 27968 1540 1096 S   0,0  0,3   0:00.12 rsyslogd
+ 1762 timidity  20   0 17420 6576 2308 S   0,0  1,5   0:00.32 timidity
+ 1815 root      20   0  5492  780  616 S   0,0  0,2   0:00.05 cron
+ 1819 root      20   0  5676 2324  556 S   0,0  0,5   0:00.03 dhclient
+ 1877 messageb  20   0  3176 1032  756 S   0,0  0,2   0:00.11 dbus-daemon
+ 1910 ntp       20   0  5508 1712 1332 S   0,0  0,4   0:01.95 ntpd
+ 1972 nobody    20   0  2012  632  512 S   0,0  0,1   0:00.18 thd
+ 1976 root      20   0  6208 1064  640 S   0,0  0,2   0:00.01 sshd
+ 2005 root      20   0  4288  800  672 S   0,0  0,2   0:00.02 getty
+ 2006 root      20   0  4288  800  672 S   0,0  0,2   0:00.01 getty
+ 2007 root      20   0  4288  800  672 S   0,0  0,2   0:00.01 getty
+ 2008 root      20   0  4288  800  672 S   0,0  0,2   0:00.01 getty
+ 2009 root      20   0  4288  800  672 S   0,0  0,2   0:00.01 getty
+ 2010 root      20   0  4288  800  672 S   0,0  0,2   0:00.01 getty
+ 2011 root      20   0  2060  728  604 S   0,0  0,2   0:00.01 getty
+ 2012 root      20   0     0    0    0 S   0,0  0,0   0:00.00 kworker/0:0
+ 2018 root      20   0 26520 3692 2608 S   0,0  0,8   0:00.49 console-kit-dae
+ 2085 root      20   0 22320 2924 2440 S   0,0  0,7   0:00.28 polkitd
+ 2135 root      20   0     0    0    0 S   0,0  0,0   0:00.00 kworker/u:2
+ 2290 root      20   0     0    0    0 S   0,0  0,0   0:02.43 kworker/0:1
+ 2369 root      20   0     0    0    0 S   0,0  0,0   0:00.00 flush-179:0
+ 2370 root      20   0  9768 3168 2544 S   0,0  0,7   0:00.14 sshd
+ 2377 pi        20   0  9768 1512  884 S   0,0  0,3   0:00.04 sshd
+ 2378 pi        20   0  7992 3404 1548 S   0,0  0,8   0:01.21 bash
