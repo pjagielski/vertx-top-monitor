@@ -1,6 +1,7 @@
 *.class
 build
 .gradle
+*.iws
 
 # Package Files #
 *.jar
