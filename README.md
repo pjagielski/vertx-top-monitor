@@ -17,6 +17,12 @@ gvm install vertx
 Running
 =======
 ```
+gradle runVertx
+```
+
+or 
+
+```
 gradle build
 ./run.sh
 ```
