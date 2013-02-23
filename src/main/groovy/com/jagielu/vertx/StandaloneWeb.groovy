@@ -22,11 +22,12 @@ class StandaloneWeb extends Verticle {
             req.response.end "User: ${req.params()['user']} ID: ${req.params()['id']}"
         } as Handler<HttpServerRequest>)
 
+        // Catch / - serve the index page
         rm.get('/', { HttpServerRequest req ->
             req.response.sendFile("web/index.html")
         } as Handler<HttpServerRequest>)
 
-        // Catch all - serve the index page
+        // Catch all - just send the file from web directory
         rm.getWithRegEx('.*', { HttpServerRequest req ->
             req.response.sendFile "web/${req.path}"
         } as Handler<HttpServerRequest>)

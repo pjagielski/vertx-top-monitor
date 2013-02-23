@@ -15,7 +15,7 @@ class StatsCollectorTest {
         }
         def stats = statsCollector.collectStats()
         assertEquals(231, stats.tasks)
-        println stats.avgCpu
+        assertEquals(14.0, stats.avgCpu, 0)
     }
 
     @Test
@@ -23,9 +23,10 @@ class StatsCollectorTest {
         statsCollector.metaClass.executeCommand = { String cmd ->
             this.class.getResourceAsStream('/top-ARM.txt').readLines().collect { it.replaceAll(",",".") }
         }
-        statsCollector.metaClass.isOnARM = { println "called"; true }
+        statsCollector.metaClass.isOnARM = { true }
         def stats = statsCollector.collectStats()
         assertEquals(55, stats.tasks)
+        assertEquals(11.5, stats.avgCpu, 0)
     }
 
 }
